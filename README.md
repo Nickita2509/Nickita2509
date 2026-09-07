@@ -58,7 +58,6 @@
 
 - **AP1 — Python Fundamentals:** алгоритмы, структуры данных, функции и работа с файлами.
 - **AP2 — Python:** `multiprocessing`, `asyncio`, IPC и обработка ошибок.
-- **AP4 — Flask & REST API:** Flask, PostgreSQL, SQLAlchemy, REST API и HTTP Basic Auth.
 
 ### 🗄️ PostgreSQL & SQL
 
