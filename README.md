@@ -17,25 +17,52 @@
 
 ## 🛠 Технологический стек и навыки
 
-*   **ОС и Администрирование:** Linux (Ubuntu Server, CLI), Bash, работа с логами (`/var/log/`, `awk`, `grep`), управление правами, SSH-hardening.
-*   **Сети:** TCP/IP, DHCP, NAT (SNAT/DNAT), статическая маршрутизация, DNS, базовая настройка firewall (`iptables`).
-*   **Мониторинг:** Prometheus, Grafana, анализ метрик в реальном времени.
-*   **Автоматизация и инструменты:** Docker (базовый), n8n, написание Bash-скриптов для парсинга логов и сбора метрик.
-*   **Работа с данными и API:** SQL (базовые запросы), Postman, Swagger, JSON, клиент-серверная архитектура.
-*   **Процессы и трекеры:** Bitrix24, Jira, Git, GitHub/GitLab.
+- **ОС и системное администрирование:** Linux (Ubuntu Server), Linux CLI, Bash, systemd, управление пользователями и правами доступа, SSH, SSH-hardening, файловые системы, `df`/`du`, системные логи, `journalctl`.
+- **Сети:** TCP/IP, IPv4, subnetting, DHCP, DNS, NAT (`SNAT`/`DNAT`), статическая маршрутизация, VLAN, SSH tunneling, firewall (`iptables`).
+- **Диагностика и troubleshooting:** `ping`, `traceroute`, `tracepath`, `ss`, `tcpdump`, `nmap`, `iperf3`, `curl`, `dig`, `df`, `du`, `top`, `htop`, `free`, `vmstat`, `iostat`, `lsof`, `dmesg`, `journalctl`.
+- **Мониторинг и логи:** Prometheus, Grafana, Node Exporter, GoAccess, Nginx, `awk`, `grep`, анализ системных и Nginx-логов, сбор и визуализация метрик, нагрузочное тестирование.
+- **Контейнеризация:** Docker, Dockerfile, Docker Compose, Docker Network, volumes, port mapping, Nginx reverse proxy, FastCGI, Dockle.
+- **Автоматизация и скриптинг:** Bash, Python 3, автоматизация задач, парсинг логов, сбор системных метрик, cron.
+- **Python:** `multiprocessing`, `asyncio`, IPC, Flask, SQLAlchemy, PostgreSQL, REST API.
+- **Базы данных:** PostgreSQL, SQL, `JOIN`, CTE, Views, Materialized Views, индексы, `EXPLAIN ANALYZE`, проектирование схем и ограничения целостности.
+- **API и веб-технологии:** HTTP/HTTPS, JSON, REST API, клиент-серверная архитектура, Postman, Swagger.
+- **Version Control:** Git, GitHub, GitLab, branches, `merge`, `rebase`, merge conflicts.
+- **Инструменты:** DBeaver, Jira, Bitrix24.
 
 ---
 
-## 📂 Портфолио проектов (Школа 21)
+## 📂 Портфолио проектов
 
-Все мои практические инженерные работы собраны в едином репозитории. Каждый проект внутри содержит подробный `README` с описанием задачи, архитектурой и инструкциями по запуску:
+Мои практические проекты собраны в едином репозитории **[School 21 DevOps Portfolio](https://github.com/Nickita2509/school_21)**.
 
-* 📁 **[School 21 DevOps Portfolio](https://github.com/Nickita2509/school_21)**
-  * 🐧 **DO1_Linux:** Ubuntu Server без GUI, netplan, SSH-hardening, анализ `/var/log/`.
-  * 🌐 **DO2_Linux_Network:** Статическая маршрутизация, DHCP, NAT, фильтрация `iptables`, диагностика `tcpdump`/`iperf3`.
-  * ⚙️ **DO3_Linux_Monitoring v1.0:** Bash-скрипты для сбора метрик и парсинга Nginx-логов через `awk`.
-  * 📊 **DO4_Linux_Monitoring v2.0:** Стек Prometheus + Grafana, нагрузочное тестирование (`stress`).
-  * 🤖 **Ai_agent:** Развертывание n8n в Docker, интеграция с GigaChat API (HTTP, JSON).
+Основной фокус портфолио — **Linux administration, networking, monitoring, troubleshooting, scripting, containerization и работа с PostgreSQL**.
+
+### 🐧 Linux Administration
+
+- **DO1 — Linux:** Ubuntu Server, управление пользователями и правами, `netplan`, SSH-hardening, системные логи, мониторинг ресурсов и `cron`.
+
+### 🌐 Linux Networking
+
+- **DO2 — Linux Network:** IPv4 и subnetting, статическая маршрутизация, DHCP, NAT, `iptables`, SSH tunneling, `tcpdump`, `nmap`, `iperf3`.
+
+### 📊 Monitoring & Bash
+
+- **DO3 — Linux Monitoring v1.0:** Bash-скрипты, сбор системной информации, анализ файловой системы, `awk`, `grep`, MD5.
+- **DO4 — Linux Monitoring v2.0:** Prometheus, Grafana, Node Exporter, GoAccess, Nginx logs, `stress`, `iperf3`, Bash exporter.
+
+### 🐳 Containerization
+
+- **DO5 — Simple Docker:** Docker, Dockerfile, Docker Compose, Docker Network, volumes, Nginx reverse proxy, FastCGI и Dockle.
+
+### 🐍 Python
+
+- **AP1 — Python Fundamentals:** алгоритмы, структуры данных, функции и работа с файлами.
+- **AP2 — Python:** `multiprocessing`, `asyncio`, IPC и обработка ошибок.
+- **AP4 — Flask & REST API:** Flask, PostgreSQL, SQLAlchemy, REST API и HTTP Basic Auth.
+
+### 🗄️ PostgreSQL & SQL
+
+- **SQLB — PostgreSQL:** SQL-запросы, `JOIN`, CTE, DML, Views, Materialized Views, индексы, `EXPLAIN ANALYZE` и проектирование схем.
 
 ---
 
